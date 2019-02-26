@@ -4,6 +4,7 @@ sobre estes dois números. Este funcionamento deve ser repetido até que o símb
 seja algo que não corresponda a nenhuma das quatro operações reconhecidas. 
 */
 
+/*ajeitar / terminar / refazer esse exercício*/
 #include <iostream>
 using namespace std;
 int main(){
