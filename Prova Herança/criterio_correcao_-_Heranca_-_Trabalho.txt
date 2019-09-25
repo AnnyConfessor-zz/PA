@@ -1,0 +1,53 @@
+Objetivo da avaliação:
+
+- Demonstrar conhecimento dos conceitos fundamentais de POO, usando entrada e saída de dados em arquivos e herança entre classes em C++
+
+Conceitos fundamentais:
+
+Entrada e saída de dados (4pt):
+- Consegue ler e salvar dados em arquivos
+- Constroi métodos capazes tanto de imprimir em tela quanto salvar em arquivo
+- Salva os dados de acordo com o formato estabelecido
+- É capaz de rejeitar corretamente arquivos corrompidos
+
+Herança (6pt):
+- Construção incremental de objetos: utiliza corretamente composição e herança
+- Utiliza corretamente dados e herança pública e privada
+- Define os construtores da classe derivada em termos dos construtores da classe base
+- Utiliza corretamente os dados e métodos da classe base na construção dos métodos da classe derivada
+- Não duplica dados da classe base na classe derivada
+- Não reproduz código dos métodos da classe base na classe derivada
+
+NOTAS:
+- Todos os conceitos: >= 7
+- Maior parte dos conceitos : 5-6,9
+- Poucos conceitos: 3-4,9
+- Nenhum conceito: < 3
+
+Erros E/S dados:
+- Não lê nem salva informações em arquivo: -4pt (todos)
+- Não lê informações de arquivo: -3pt
+- Não salva informações em arquivo: -3pt
+- Salva informações em formato fora das especificações: -2pt
+- Não detecta corretamente arquivos corrompidos: -1,5pt
+
+Erros herança:
+- Utilização de classes independentes (não usou herança): -6pt (todos)
+- Não utilizou classes (definiu todos os dados em variáveis isoladas): -6pt (todos)
+- Implementou métodos em uma classe derivada que realizam operações que deveriam ser feitas em métodos da classe base (-3pt)
+- Implementou métodos em uma classe base que realizam operações que só deveriam ser feitas em métodos de uma classe derivada (-3pt)
+- Tornou públicos dados que poderiam ser privados: -2pt
+- Tornou protegidos dados que poderiam ser privados: -1.5pt
+
+Erros menos graves:
+- Passou parâmetro por cópia, quando deveria ser por referência: -1pt
+- Não checou validade de parãmetro de entrada de função/método: -0,5pt/ocorrência
+- Não indicou parâmetro ou método como sendo const: -0,5/ocorrência
+
+Algoritmos:
+- Inexistente ou incorreto: -1 a -2 pt
+- Incompleto: -0,5 a 1,0 pt
+
+Sintaxe incorreta: -0,5 pt
+Otimização faltante: -0,2 a 0,5 pt
+
