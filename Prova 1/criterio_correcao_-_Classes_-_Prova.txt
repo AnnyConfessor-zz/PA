@@ -1,0 +1,67 @@
+Objetivo da avaliação:
+
+- Demonstrar conhecimento dos conceitos fundamentais de POO utilizando corretamente:
+a) ponteiros com alocação dinâmica;
+b) classes em C++
+
+Conceitos fundamentais:
+
+Ponteiros e alocação de memória (4pt):
+- Armazena dados de dimensão variável em memória dinâmica (não em variáveis estáticas)
+- Aloca corretamente a memória (usa new e new[] corretamente, dimensão correta, etc.)
+- Libera corretamente a memória (usa delete e delete[])
+- Não deixa áreas alocadas sem liberar
+- Não perde ponteiros (sobrescrever ponteiros com novo valor, perdendo a área anterior)
+- Usa corretamente a visão de ponteiros como arrays e vice-versa, empregando a notação mais adequada
+
+Classes (6pt):
+- Definição correta dos tipos (membros corretos)
+- Divisão público x privado
+- Construtores e destrutores
+  - construtor por cópia
+  - construtor default
+  - construtor específico
+  - Destrutor
+  - Operador de atribuição (operator=)
+- Funções de consulta
+  - get, set, operator(), operator[], etc (conforme o caso)
+- Sobrecarga de operadores
+  - Operadores usuais
+  - Os operadores >> e <<
+- Métodos e funções:
+  - Definição correta dos parâmetros (passagem por cópia ou referência, const ou não, etc.)
+  - Checagem dos valores dos parãmetros de entrada
+  - Definição correta do retorno (void ou dado, retorno por valor ou por alteração de parâmetro, etc.)
+  - Retorno correto de dados (não retorna dados locais, sempre retorna um valor mesmo em caso de erro, etc.)
+
+NOTAS:
+- Todos os conceitos: >= 7
+- Maior parte dos conceitos : 5-6,9
+- Poucos conceitos: 3-4,9
+- Nenhum conceito: < 3
+
+Erros graves (apenas exemplos, outros erros podem existir):
+- Utilização de variáveis estáticas (não usou alocação dinâmica): -4pt (todos) referentes a ponteiros
+- Usou ponteiro não alocado: -3pt
+- Sobrescreveu ponteiro (perdeu apontador): -3pt
+- Não liberou memória: -2pt
+
+- Não utilizou classes (definiu todos os dados em variáveis isoladas): -6pt (todos) referentes a classes
+- Não fez construtor default, por cópia, destrutor ou operador de atribuição: -4pt
+- Tornou públicos dados que poderiam ser privados: -2pt
+
+Erros menos graves (apenas exemplos, outros erros podem existir):
+- Passou parâmetro por cópia, quando deveria ser por referência: -1pt
+- Não checou validade de parãmetro de entrada de função/método: -0,5pt/ocorrência
+- Não indicou parâmetro ou método como sendo const: -0,5/ocorrência
+
+Não compila e/ou não executa: -2pt
+
+Algoritmos:
+- Inexistente ou incorreto: - 1pt
+- Incompleto: -0,5pt
+
+Otimização faltante: -0.2
+Sintaxe incorreta: -0,2
+
+
